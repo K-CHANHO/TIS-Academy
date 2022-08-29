@@ -129,7 +129,7 @@ public class Haksa extends JFrame{
 					//oracle jdbc드라이버 로드
 					Class.forName("oracle.jdbc.driver.OracleDriver");// jdbc driver load
 					//Connection
-					Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","hkd","hong");// 연결
+					Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","***","****");// 연결
 					System.out.println("연결완료");
 					
 					Statement stmt = conn.createStatement(); // Statement 객체생성
