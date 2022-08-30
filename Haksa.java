@@ -49,6 +49,19 @@ public class Haksa extends JFrame{
 			}	
 		});
 		
+		//		JMenuItem mi_bookRentPie=new JMenuItem("대출현황");
+//		m_book.add(mi_bookRentPie);
+//		mi_bookRentPie.addActionListener(new ActionListener() {
+//			@Override
+//			public void actionPerformed(ActionEvent e) {
+//				panel.removeAll(); //모든컴포넌트 삭제
+//				panel.revalidate(); //다시 활성화
+//				panel.repaint();    //다시 그리기
+//				panel.add(new BookRentPie()); //화면 생성.
+//				panel.setLayout(null);//레이아웃적용안함				
+//			}	
+//		});
+		
 		
 		setJMenuBar(bar);
 		
